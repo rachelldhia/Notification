@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_green"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/green"/>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="85dp"
+        android:hint="@string/title"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/message"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/btnSend1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_to_channel1"/>
+
+    <Button
+        android:id="@+id/btnSend2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_to_channel2" />
+
+
+
+</LinearLayout>
